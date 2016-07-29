@@ -188,6 +188,9 @@ export {
   // Concatenates multiple AST together.
   concatAST,
 
+  // Separates an AST into an AST per Operation.
+  separateOperations,
+
   // Comparators for types
   isEqualType,
   isTypeSubTypeOf,
